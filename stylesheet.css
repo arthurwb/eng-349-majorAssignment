@@ -1,0 +1,119 @@
+/* bootstrap alts */
+:root {
+    --bs-primary: black;
+    --fc-event-bg-color: rgb(15, 130, 48);
+    --fc-event-border-color: rgb(15, 130, 48);
+}
+
+.btn-primary {
+    border-color: #000000;
+    background-color: #000000;
+} .btn-primary:hover {
+    border-color: #000000;
+    background-color: rgb(15, 130, 48);
+}
+
+a {
+    color:rgb(5, 95, 31);
+}
+
+.border .border-2 {
+    border-color: black;
+}
+
+/* calendar alts */
+.fc-toolbar-title {
+    text-align: center;
+}
+.fc-toolbar-chunk {
+    padding: 1px;
+}
+.fc .fc-toolbar {
+    display: block;
+}
+.fc-direction-ltr {
+    text-align: center;
+}
+
+/* Center align navbar items */
+.navbar-nav {
+    margin: 0 auto;
+    display: table;
+  }
+  
+  .nav-item {
+    float: none;
+    display: inline-block;
+  }
+
+  /* Coffee Section styles */
+.coffee {
+    padding: 50px 0;
+  }
+  
+/* Mission Statement styles */
+.mission-statement {
+    background-image: url('images/1000x400.png'); /* Replace 'mission_header_image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    color: #000000; /* Text color on top of the image */
+    text-align: center;
+    padding: 100px 0; /* Adjust padding as needed */
+  }
+
+/* Header styles */
+.social-media-bar {
+  background-color: #333;
+  padding-left: 10px;
+  height: 25px;
+  font-size: 15px;
+}
+
+.social-media-bar a {
+  color: white;
+  margin-right: 10px;
+}
+
+.logo {
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Mission Statement styles */
+.mission-statement {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+/* About Section styles */
+.about {
+  padding: 50px 0;
+}
+
+/* Coffee Section styles */
+.coffee {
+  padding: 50px 0;
+}
+
+.coffee .card {
+  margin-bottom: 30px;
+}
+
+/* Events Section styles */
+.events {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+/* Sticky Navbar styles */
+.navbar.sticky-top {
+  background-color: #fff; /* Change as needed */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow when sticky */
+}
+
+/* Calendar styles */
+#calendar {
+  /* Add styles for the calendar */
+}
+
+@import "bootstrap";
